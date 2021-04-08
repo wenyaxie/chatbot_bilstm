@@ -1,0 +1,421 @@
+Question,Response
+How can I reset my password? I can’t remember my password. , Currently we do not have this facility. Users will need to contact the admin
+ How can I contact the admin? Can you give me the contact information?,"You can find the contact information in the webpage
+"
+How can I reset my password? I can’t remember my password. , Currently we do not have this facility. Users will need to contact the admin
+ How can I contact the admin?,"Please  click the ‘CONTACT’ button in the left panel
+"
+I can’t login with my account and password. , Do you want to find your password? 
+ Yes. Please reset my password.,"Please contact the administrator for that
+"
+I can’t login with my account and password. , Have you check your account and password?
+ Yes. I should have something wrong with my password.,"Yes. Please click the ‘CONTACT’ button in the left panel to contact the administrator
+"
+What kinds of AI applications can be tested by this tool? Can I test NLP applications? ,"Test cases can be generated for any type of application, but currently the application can have input type image only"
+So I can’t test NLP applications. Is it right?,"We will add the feature in future
+"
+What kinds of AI applications can be tested by this tool? Can I test OCR applications? ,"Test cases can be generated for any type of application, but currently the application can have input type image only"
+So I can’t test NLP applications. Is it right?,"We will add the feature in future
+"
+What functions are supported by the tool?," Input and context tree modeling,Test case modeling and Test case input modeling."
+What is test case modeling?,"Generating Test Cases based on provided input and the context trees. With this feature, users can generate test cases for all the combination for the respective input and context trees
+"
+What functions are supported by the tool?," Input and context tree modeling,Test case modeling and Test case input modeling."
+What is the difference between test case input modeling and input tree modeling?,"In Input tree modeling we are defining the factors which need to be considered while testing a certain product.  We use this tree while defining the test case group and to generate the test cases Test Case Input modeling refers to Data/Input Data required for the test case. In this module, we are providing the user ability to add input data to the test case either manually or with the help of a web search engine
+"
+What kinds of tests can be done with this tool?, All kinds of AI application.
+ Can functional and performance tests both be done?,"No. Only functional tests can be done
+"
+What kinds of tests can be done with this tool?, All kinds of AI application.
+ Can functional and performance tests both be done?,"Not really
+"
+What is the impact if the test tools are used by multiple users for different apps at the same time?, Currently the app is in the development stage. So the performance capabilities are limited and not supported.
+Do you mean only one user one application can be supported at one time?,"Yes. We plan to support it in later version
+"
+What are the maximal test cases can be executed when the app performance is tested?,Current the performance testing feature is not available.
+Can multiple test cases be executed then?,"No
+"
+How can I use spanning trees in the dashboard?, We are in the process of reconfiguring the UI this feature will be removed
+ Do you suggest not to use this?,"Yes
+"
+How can I use spanning trees in the dashboard?, We are in the process of reconfiguring the UI this feature will be removed
+ Do you suggest not to use this?,"You can try it, but your usage may be interrupted during the usage
+"
+How can I use the test case group function best? ,"Use  Group Name , Version, Sub-version fields to create different groups for the same application"
+"Understand, thanks","You are welcome
+"
+How can I use the test case group function best? ,"Use  Group Name , Version, Sub-version fields to create different groups for the same application"
+Got it. It’s the test cases organization method,"Yes
+"
+How can I do the version control of the input and context classification input?,Name the files accordingly and store multiple versions of the file. Also copy tree function is available
+What does copying tree for?,"It’s used to copy the whole content of current version for producing a new version by modification
+"
+How can I do the version control of the input and context classification input?,Name the files accordingly and store multiple versions of the file. Also copy tree function is available
+What does copying tree for?,"Copy tree is to copy the version
+"
+How can I do the version control of the input and context classification input?,Name the files accordingly and store multiple versions of the file. Also copy tree function is available
+Is there any naming convention?,"Currently no
+"
+How can I do the version control of the input and context classification input?,Name the files accordingly and store multiple versions of the file. Also copy tree function is available
+Is there any naming convention for the file?,"No
+"
+How can I control the test cases number of each test case branch?, You can limit the number of test cases by limiting the number of nodes in input and context tree.
+Can I input the limitation number?,"Let me check
+"
+How can I control the test cases number of each test case branch?, You can limit the number of test cases by limiting the number of nodes in input and context tree.
+Can I input the limitation number?,"No
+"
+Where to check the test case execution status?,currently this module is under development
+ Is there any plan?,"The release date is not determined yet
+"
+Where to check the test case execution status?,currently this module is under development
+ Is there any plan?,"Yes, it will be delivered soon
+"
+Can multiple users modify the same application input and context classification input?,No.
+ Can user use same login with currently with multiple browser?,"No, one user can’t login with multiple browser.
+"
+Can multiple users modify the same application input and context classification input?,No.Also User should not use same login with currently with multiple browser.
+Will you support multi-user access later?,"There is no plan yet
+"
+Can multiple users modify the same application input and context classification input?,No.Also User should not use same login with currently with multiple browser.
+Will you support multi-user access later?,"Let me check
+"
+Can the tool generate test cases for one app without input and context definition by users?,No.
+ Is there template available for reference?,"No
+"
+Can the tool generate test cases for one app without input and context definition by users?,No.
+ Is there some templates available for reference?,"We plan to do that later
+"
+Can multiple users share a project and work together?,No. This feature will need to be developed.
+What’s the plan for it?,"It is not decided yet
+"
+Can multiple users share a project and work together?,No. This feature will need to be developed.
+It’s necessary for team cooperation.,"Yes, I agree
+"
+Can multiple users share a project and work together?,No. This feature will need to be developed.
+It’s necessary for team cooperation.,"I understand
+"
+Can I set the test cases number for each test case branch? ,No.
+It’s needed to simplify the work,"We have no plan for it yet
+"
+Can I set the test cases number for each test case branch? ,No.
+It’s needed to simplify the work,"We will check it.
+"
+Can I set specific  execution time for the test cases?,No
+Do you have a plan for this function?,"We have no plan for it yet
+"
+Can I set specific  execution time for the test cases?,No
+I think it is very useful function if the test cases are huge and avoid workload traffic,"Understand
+"
+Can I set specific  execution time for the test cases?,No
+I think it is very useful function if the test cases are huge and avoid workload traffic,"We will consider the schedule function
+"
+"Hello, how can I edit my nodes for input classification? Sure, you can edit or delete nodes. How many nodes can I add at most in one time?",There is a ‘create 5 Nodes’ option to add five child nodes with default names. Then you can select the node to rename with appropriate values.
+Sounds great. How can I delete nodes from input classification?,"Move mouse over the node. Right click on it and option to delete the node will be displayed.
+"
+"Hello, I can’t find the delete button for input classification nodes. Can you help me?Sure. Move mouse over the node. Right click on it and option to delete the node will be displayed.",Can I add more nodes?
+"Absolutely! There are two ways: First move your mouse over the node, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values. Thank you! Can I upload my input classification?","Yes. You can upload a JSON file.
+"
+"Hello, I can’t find my testing cases? Can you help me?","Yes, you can go to Login-> Get Started -> TEST CASE GROUP, then select appropriate test case group, scroll to right till you see the action column. Hover over each action button to see the description, click ‘View Test Cases’. Then you will be redirected to input test cases. Did I solve your problem?"
+"Yes, Thanks. Can I change the color of node?","Sorry, we don’t have this option.
+"
+How many nodes can I enter for my input classification?,Are you asking about the tree?
+Yes.,"The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more number of test cases will be generated.
+"
+How to delete nodes from input classification?,You can mode mouse over the node. Right click on it and option to delete the node will be displayed.
+"If I accidently delete the node, can I recover it?","Sorry, we don’t have that option. But you can create a new node.
+"
+How can I upload my input classification?,"Go to Login -> Get Started -> DATA ADMINISTRATION. Then select JSON file,  select file type ( Input, Context or Output), click submit."
+Thanks for you help. Can I upload an excel file?,"Sorry, we use JSON file to generate testing cases.
+"
+Can I use input classification files as my content classification?,Sure.
+Can I use my previous trees?,"Yes, no problem.
+"
+I can find the way to delete nodes from classification?,Are you asking about input classification?
+Yes,"You need to go navigation: Login -> Get Started-> Data Administration with graph. Move mouse over the node.Right click on it and option to delete the node will be displayed.
+"
+"I don't know how to create a child node from input classification, Could you help me?",Absolutely. Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create.
+Do you have any more question?,"No, Thanks for your help.
+"
+Can I add three nodes at once?,"Yes, you can right click, select 'create child node' option.A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required,then click create to add nodes to the tree."
+Can I change the node color?,"Sorry, we don't have this option right now. If you have more question, please contact admin.
+"
+I wasn't able to find my input classification file.,Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed.
+May I use input classification file as content classification?,"Yes, no problem.
+"
+What type of input classification file can I upload?,JSON file
+Where can I check my testing tree?,"Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed.
+"
+Is there any limitation for creating nodes for input classification?,The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.
+Thanks. Can I use scratching input classification file.,"Sorry, we don't support this option. But you can upload your own JSON input classficiaction file.
+"
+How can I delete nodes from input classification?,Move mouse over the node. Right click on it and option to delete the node will be displayed.
+Is there any limitation for creating nodes for input classification?,"The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.
+"
+"Hello, how can I edit my nodes for input classification? Sure, you can edit or delete nodes. How many nodes can I add at most in one time?",There is a ‘create 5 Nodes’ option to add five child nodes with default names. Then you can select the node to rename with appropriate values.
+Sounds great. How can I delete nodes from input classification?,"Move mouse over the node. Right click on it and option to delete the node will be displayed.
+"
+Can I add more nodes?,"Absolutely! There are two ways: First move your mouse over the node, right click then select ‘create child node’ option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree. The second way is move your mouse over the node, right click then select ‘create 5 nodes’ option to add five child nodes with default names. Then select the node to rename with appropriate values."
+I can’t find the delete button for input classification nodes?,"Move mouse over the node. Right click on it and option to delete the node will be displayed.
+"
+"Hi, I have a question: Can I change the color of nodes?","Sorry, we don’t have this option."
+Do you know where I can find my input testing cases?,"Yes, you can go to Login-> Get Started -> TEST CASE GROUP, then select appropriate test case group, scroll to right till you see the action column. Hover over each action button to see the description, click ‘View Test Cases’. Then you will be redirected to input test cases. Did I solve your problem?
+"
+What type of input classification file can I upload?,We accept JSON file.
+Can I use my previous tree.,"Sure. You can upload your own tree by using JSON file.
+"
+Can I recover deleted nodes?,"Sorry, we don’t have that option. But you can create a new node."
+How many nodes can I enter for my input classification?,"The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more number of test cases will be generated.
+"
+"I tried to upload a Jason file, where can I see my testing tree?",Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed.
+Can I delete nodes from input classification?,"Sure. Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed
+"
+How to add or delete node from input classification?,"For adding nodes, you can go Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create."
+"For deleting nodes, you can go Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed. Sounds great. Can I change the color of nodes?","Sorry, we don't have that option.
+"
+I can't rename my node?,You can Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Rename Node” option.A popup window will open.Change name and Click rename. Do I answer you question?
+"Yes, thank you. How can I delete my saved trees?","Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Click Delete.
+"
+Can I upload an image file for my input classification tree?,"Sorry, we don't accept image file right now, but you can upload JSON file."
+Alright. Do you know how many nodes can I enter for my input classificaiton? Is there any limitation?,"The tree should have only three levels. There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.
+"
+Can I upload my own JSON file as input classification and content classification?,"Yes. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+Can I use scratch input classification files?,"No.
+"
+How can I find the input classification file?,Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Select tree/file from dropdown list. Tree will be displayed. Dropdown list will have “File Name” and “File Type”
+"Ok, thanks. I was able to delete the nodes from input classfication.","You can try Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed.
+"
+"I have a problem of uploading my input classification, how can I fix it?","Well, you can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+Do I solve your problem?,"Yes, Thank you very much.
+"
+I can't upload my previous input classification tree.,"Ok, you can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit."
+Thank you. What else file format can I upload except JSON.,"Right now, we only accept JSON file.
+"
+Can I change the order of input classification?,"Nodes and Child Nodes are arranged/sorted based on name(A-Z) after each action(add,delete and rename)"
+Can I delete nodes from input classification tree?,"Sure, Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH  Move mouse over the node.Right click on it and option to delete the node will be displayed
+"
+"I wasn't able to create and delete a node from input inclassification, can you help me?","Sure.""For creating node:Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Create Child Node” option.A popup window will open. Add name for the node and click create."""
+For deleteing node:Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH  Move mouse over the node.Right click on it and option to delete the node will be displayed,"Thanks for your help.
+"
+What to do with deleting nodes from input calssficaition.,Please check right click options.
+Would you provide detail information about it?,"Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move mouse over the node.Right click on it and option to delete the node will be displayed
+"
+I have difficulty to upload my own input classficiation file?,What's your issue
+"I tried to upload csv file, but it failed.","We only accept JSON file. You can go Go to Login → Get Started → DATA ADMINISTRATION 1. Select JSON File 2. Select File Type (Input,Context or Output) 3. Click submit.
+"
+Why things not working when I adding more level for my input classification tree?,What's the issue?
+"I tried to add forth level, but not working.","The tree should have only three levels.
+"
+What to do if I want to add more nodes at once?,Are you talking about adding nodes in input classification tree?
+yes.,"There are two methods: Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select   1. “Create Child Node” option.A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required,then click create to add nodes to the tree. OR’ 2. “Create 5 Nodes” option to add five child nodes with default names. Then select the node to rename with appropriate values
+"
+What can I do if I want to delete my saved tree?,Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH  Select tree/file from dropdown list. Click Delete.
+Can I use scratch input classification tree?,"No.
+"
+How to fix submission button doesn't work?,Go to Login → CONTACT  Click to view Google Feedback Form Add bug report.
+Can I upload my own input classificatin tree?,"Sure. You can uplaod your own JSON file.
+"
+What can I do if I want to rename my node?,Go to Login → Get Started → DATA ADMINISTRATION WITH GRAPH Move the mouse over the node.Right click on it and select “Rename Node” option.A popup window will open.Change name and Click rename
+How many child nodes can I enter for my input classification?,"There is no limit on the number of nodes and child nodes. Higher the nodes more no of test cases will be generated.So if possible create trees with key values.
+"
+Why things not working when I try to add more nodes at once?,Have you tried 'create child node' method?
+Would you give me more specific information about it?,"“Create Child Node” option. A popup window will open. There is a plus(+) symbol on the popup window. With this you can add as many nodes required,then click create to add nodes to the tree.
+"
+Why things not working when I try to add more nodes at once?,Have you tried 'create 5 Nodes' method?
+Would you give me more specific information about it?,"“Create 5 Nodes” option to add five child nodes with default names. Then select the node to rename with appropriate values
+"
+How can I upload my input classification?,Do you have a JSON file?
+Yes.,"You can go to Login → Get Started → DATA ADMINISTRATION, select file type (input, context or output) then click submit.
+"
+What can I do if I want to check my input classification cases?,"Can You find ""TEST CASE GROUP"" on your left?"
+Yes.,"Then you can 1.Select appropriate test case group 2.Scroll to right till you see the Action column 3.Hover over each action button to see the description 4.Click “View Test Cases” 5.User will be redirected to input test cases
+"
+How can I fix the previous information when I am at the output stage?,"Yes for sure, could you please clarify 'previous information'?"
+"Previous information are the previous stages, like input and contect stages.","Users can create an output tree or output tree can be generated automatically based on the input and context tree. Once the “test case group” is created, users can edit input,context and output trees.
+"
+Can I edit the input and context without generating the output tree when I reach the output stage? Like can I edit the information without saving it?,"No, you cannot."
+Could you please provide clarification?,"Once the “test case group” is created, users can edit input,context and output trees. Basically, you can generate the test case group first and then edit the information.
+"
+How do we improve the invalid output?,Expected output is generated from output tree and stored as tree (similar to the input and context tree).
+"I understand that, but can you provide a little bit more explanation?","The output tree can be auto generated or the user can manually create the tree. User can manipulate this output tree to model the expected output.
+"
+How is the output tree generated?,The output tree can be auto generated.
+Can I do that manually?,"Yes, you can.
+"
+How to export the output? Can I download the report instead of going back and forth?,"Currently we do not have this functionality. We are developing a report to export all test cases along with the input, expected output and application output."
+I think you guy should really develop such function.,"Thank you this sugguest!
+"
+How is each output stored? Are there options for us to select?,Expected output is generated from output tree and stored as tree (similar to the input and context tree).
+How is the output generated?,"The output tree can be auto generated or the user can manually create the tree.
+"
+What format is the application stored as?,What do you mean by format?
+"Like, is it string, integer, or what?","Application output is stored in the form of String. This output is generated by the application.
+"
+What type of version is the output?,Could you please explain what do you mean by version?
+"Yes, it is like what does it stored as?","Expected output is generated from output tree and stored as tree (similar to the input and context tree).
+"
+What are the maximum child nodes for the parents nodes (child nodes for Invalid; child nodes for Valid)?,Do you mean number of nodes?
+Like can I have more than 10?,"There is no such limitationn.
+"
+Can I have 20 child nodes for the parents nodes?,"Yes, of course."
+For real? Like as many as I want?,"There is no nodes limitationn.
+"
+"If I have more than 50 child nodes for the parents nodes, would that be okay?",There should be no problem.
+Why?,"Our system doesn't have nodes limitationn.
+"
+What do we do next after the output stage?,Do you mean the final output?
+"No, I mean the test cases.","You can simply provide input for the test cases and then perform the execute test case action.
+"
+"What if I accidentally return back to the previous stage, will output information be saved?",What do you mean by previous stage?
+Like going back to the context page/input page.,"Expected output is generated from the output tree once “generate test cases” action triggered. If this action is interrupted then test case generation will be terminated.
+"
+"What will happen if the ""generate test cases"" action was triggered and I interrupted it?",During the output stage right?
+Yes.,"Then the test case generation will be terminated.
+"
+What is the difference between expected output and application output?,During which stage?
+Like at the end.,"Expected output is generated from the output tree. Application output is generated after the execution of test cases. Expected output tree will be used to compare actual application output to rate the quality。
+"
+When is application output generated?,Application output as the output for the final stage?
+Correct.,"Application output is generated after the execution of test cases.
+"
+When is the expected output generated?,Expected output as the output for the final stage?
+Correct.,"Expected output is generated from the output tree.
+"
+How is expected output tree used?,Expected output tree?
+Yes.,"Expected output tree will be used to compare actual application output to rate the quality.
+"
+What if I accidentally deleted the whole test case?,Are you looking for recovery?
+Yes.,"Our system doesn't provide recovery.
+"
+Is there any way to restore the deleted test case?,Are you looking for restoration?
+"Yes, I am.","Unfortunately no. If user deleted input/context test case then user will need to retrigger the generate test case action.
+"
+Do I need to retrigger the generate test case action if I deleted input or context test case?,For the deleted input or context test case?
+Correct.,"Yes, you do need to do that.
+"
+Where can I store the output information?,You will need to create an output tree.
+Then?,"In the child node user can put all the possible output strings or output tree can be generated automatically based on the input and context tree.
+"
+Where can I find the output information?,In our system menu? Do you need navigations?
+Yes please.,"Go to  Login → Get Started → Test Case Group
+"
+Could you please provide detailed navigations to get to the output information?,In our system menu? Do you need navigations?
+Yes please.,"1. Click view test case action 2. Select input test case and click view test case action  to see context test case 3. Click on the “Expected Output” or “Application Output” column  to view the output respectively
+"
+Where can I find the deleted test case?,Deleted from the Test Case Group?
+Right.,"Delete action is hard delete. I.e., you cannot view the test case once deleted.
+"
+What type of action is for deleted test case?,Could you please clarify what do you by the type?
+Like is it restorable?,"No, delete action is hard delete.
+"
+Why is there only one file version available?,Do you mean the output file version? Or the input file version?
+I mean in genneral.,"Auto file versioning is not available but if you. Name the files accordingly and then user can store multiple versions of the file. Also, copy tree function is available
+"
+Can we have more than two parent nodes?,For output generation?
+"Yes, for the output tree.","No. Currently we do not have this facility.
+"
+"Just by looking at the child nodes, it feels like the child nodes are lacking of something.",Could you explain a little bit more?
+Can we have more detailed information about the child nodes?,"No. Currently we do not have this facility.
+"
+Is there a limitation on the number of output we could have from the same dataset?,During the output stage?
+"Correct, with using the same input and context group.","Yes. You can generate different expected output tree for same input and context group.
+"
+"For a given image or video, which features are considered context?",Could you provide some examples?
+Many things related to the subject in your image or video can be considered as context. ,"For example, the image is about a dog. The dog's posture, orientation and surounding backgroud can be regarded as context. 
+"
+How can I customize my own context tree?,"You can customize your context features by simply changing the labels of nodes, adding or deleting nodes in the context tree."
+Great! Do you mean each node represents a context feature?,"Yep! Each node in the context tree stands for a context feature you designed. Besides, just let you know, you can enter subnodes as subfeatures as well.
+"
+Is there any limit to the number of nodes that I can enter?,There is no limit to the number of nodes you can create at each level. You can add nodes as needed.
+"Here, you mean at each level. Is there an upper limit on the total levels of nodes? ","Yes, you are right! So far, our context tree only supports 3 levels. When designing the context tree, be careful to the level restriction.
+"
+"Hi, I cannot add a child node to the 4th level of the context tree. How can I fix this?","Oh, sorry to inform you that our context tree only supports up to 3 levels of design. I am afraid you have to get rid of the 4th level or simplify your design to 3 levels. "
+"Ok, got it! I will modify it.","You can modify it offline and then upload the modified file, or modify online in the workspace and save the updated version.
+"
+What’s the recommended number of input features for a context tree? Is there any limit?,"There is no limit to the number of nodes and child nodes, but tree should have only three levels."
+Got it! Will too many nodes affect efficiency?,"Great question! The greater the number of nodes, the more test cases will be generated and the longer it will take. So if possible create a tree with necessary key values.
+"
+How can I organize the context features? Can you provide a template?,"You can organize your context features into a tree structure level by level. A parent node presents a context feature, and a child node presents a subfeature of that context feature."
+How many subfeatures can I add to a context feature?,"There is no limit to the number of subfeatures you can add. But be careful, our context tree design only supports up to 3 levels.
+"
+How can I change the order between features?,Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH
+I tried to rearrange the order of child nodes in my tree but failed. Can you help me figure it out?,"I am sorry. Users are not allowed to do that directly. Nodes and child Nodes are sorted based on name (A-Z) after each action (add, delete and rename).
+"
+What actions can I do to a node in the context tree?,"You can add, delete or rename a node in the context tree."
+How can I delete or add a node?,"Navigation : Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Hover mouse on the target node, and right click. You'll see the corresponding options.
+"
+Does the order of nodes at each level matter?,The order of nodes at each level will be automatically sorted based on name (A-Z) after each action. The order doesn't affect test cases generation.
+"If I add more than 10 nodes at a level, would it be too much?","Actually, there is no restrictions. However, more nodes will take more time to generate test cases and modeling inputs.
+"
+I mistakenly deleted the context tree I just created. Is there any way to restore it?,Did you save it? You can only restore info from the saved tree.
+I didn't. Do I need to rebuild it from scratch?,"I am sorry, the answer is YES.
+"
+"The webpage was frozen when I was creating the context tree. If I refresh this page, will I lose my records?","Did you save it? You can only restore records from the saved tree. If you didn't, you'll lose all the info."
+I saved! Where can I find the saved version.,"Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Select tree/file from dropdown list.
+"
+How can I correct the typo in my node label?,Move the mouse over the node. Right click on it and select “Rename Node” option. A popup window will open.Change name and Click rename.
+"Oh, thanks. Clear instructions.","No problem. Just let you know, when you rename a node, the order of nodes will be automatically sorted by new name (A-Z).
+"
+"How can I zoom in the tree I built, because all the nodes are squeezed together?",There are three ways. 1. Click near the tree Area (If tree is not manipulated). Use mouse scroll to zoom-in and zoom-out the tree.
+2. Click and hold to move tree around.,"3. Double click near the tree to zoom-in.
+"
+Can I specify the file save path in advance instead of selecting it every time?,"No, we don't have that option. We utilize systems file explorer. But once user opens the directory and selects a file, the same directory will open during the user session."
+"If I switch to other app and come back, the same directory still open?","Not exactly. The same directory stays open only if you only use this app.
+"
+"I’d like to turn a sub-feature into a higher level feature, and how can I make this modification?",Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Drag and rearrange nodes feature is available. You can modify the tree this way.
+Can I perform the same operation to downgrade a feature to a lower level?,"Exactly. The operation is the same.
+"
+Can I add multiple nodes to my context tree at once?,"Of course. Mouse hover on a node and right click. Choose the ""Create Child Node"" option. You can customize the nodes to be added in the popup window."
+Could you explain in more detail?,"Sure.There is a plus(+) symbol on the popup window. With this you can add as many nodes required, then click create to add nodes to the tree.
+"
+Can I merge the nodes at level 2 and level 3 in my context tree?,"Do you mean reconstruct your context tree? Of course, you can do it."
+How can I achieve it?,"Go to  Login → Get Started → DATA ADMINISTRATION WITH GRAPH. Drag and rearrange nodes feature is available . 
+"
+"Hi, where can I find my saved context tree file?",Select tree/file from dropdown list. Tree will be displayed.
+Can I continue to modify on it?,"Sure. But don't forget to save your changes.
+"
+Can I build two separate context trees in the file? ,"Could you elaborate a bit more on ""separate context trees"" you mentioned ?"
+What I mean is to create two separate trees with separate roots.,"At this stage, our application does not support multiple context trees in a file. A file only contains a tree.
+"
+Can I create my context tree offline and then upload the file?,Sure. You can choose to upload files or create online.
+What format does the app support?,"JSON. You should build your context tree as a json file.
+"
+Can I download the context tree I built on the app?,"Yes. After you save it, we can download the corresponding json file generated by the app."
+"Great! If I want to modify the tree, I need to upload the file again?","Yes, that's one way. Another way is to modify the json file directly.
+"
+What actions can I do to a tree node?,"Actions, such as add, delete, rename and etc. You can find different actions in the option list. "
+Where can I find the option list you mentioned?,"Mouse hovers on a node and right click, then the option list will appear.
+"
+Can I merge the child nodes of a node to another node at the same level?,"Yes, you can. Just drag and rearrange the nodes in your tree."
+Great! What's the upper bound of the number of child nodes?,"There is no limit. You can add child nodes as needed. 
+"
+I have been waiting for the test cases to be generated for a long time. It takes like forever...,May I ask how many nodes in your context tree?
+Over 100 nodes.,"The more nodes, the more test cases will be generated. It will take a looooong time. So if possible delete some redundant nodes and just retain the key ones.
+"
+It took me a long time to generate all the test cases. Is there a problem with too many nodes in my context tree?,I think you created too many nodes in you context tree. You can delete some redundant nodes and just keep the important ones. 
+How can I delete a node?,"Mouse hovers on a node and right click. Then you will see the delete option.
+"
+"While building the context tree, my web page was frozen. what should I do?",Probably you could try to refresh the page and redraw your tree.
+You mean if I refresh I will lose what I have built so far!?,"Sorry, if the network connection is lost, we will not be able to recover what you created. Try to save the file often.
+"
+There is little room for me to add nodes to the third level of the context tree.,Do you want to zoom in or zoom out the tree?
+"Yes, I would like to zoom out a bit. How can I do that?","Mouse scroll to zoom-in and zoom-out the tree, or click and hold to move tree around.
+"
+How many contents can I add to my context?,Do you mean how many nodes you can add to your context tree? Am I right?
+"Yes, that's exactly what I mean. I want to know the limit to the number of nodes I can add to the tree.","There is no limit to the number of nodes in the context tree, but you can only have one root.
+"
+Can I merge two context trees into a single one online?,"I am afraid you can't do it online. Because in the online editing, we only allow to add one and only one root node."
+Is there any other way to merge two context trees? I don't want to build the merged tree from scratch.,"You can merge the two tree files offline. And then upload the merged JSON file.
+"
+What's the maximum depth of the context tree?,The context tree should have up to 3 levels.
+Can we specify the weights on the edge of the tree?,"Sorry, now we don't have this function.
+"
+Can we customize property to each node?,What do you mean by property?
+"I mean the node detail, such as creation time, last modification time, number of children and etc.","Sorry, now we only support adding category names to each node.
+"
+How many parents can each child node have?,"In our application, each child node can have and only have one parent node."
+Got it. And how many child nodes can each node have?,"There is no limit to the number of child nodes.
+"
+Can we have customized shape of nodes when drawing the tree?,"Sorry, we don't have such function. "
+Maybe you should add this functionality in the futher. I think it's important for users to classify nodes in different groups.,"Thanks for your suggestion. We'll think about it.
+"
