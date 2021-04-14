@@ -16,3 +16,4 @@ Skip to step 5 if the model has been trained.
         3. Send request, e.g. `curl -X POST --data '{"question": "What kinds of AI papliatcions can be etsted by tihs tool? Can I test NLP paplicaitosn?"}' -H "Content-Type: application/json"  localhost:22370`
         4. At the end, kill the container by `docker rm $(docker stop $(docker ps -a -q --filter ancestor=bilstm --format="{{.ID}}"))`
         5. Clean up the image by `docker image rm bilstm -f`
+6. Push image to Docker Hub by `docker tag bilstm:latest wenyaxie/bilstmchatbot && docker push wenyaxie/bilstmchatbot`

@@ -40,4 +40,4 @@ def serve():
     left, right = embed_for_request(app.df, app.vocabs, question)
     answers = predict(app.model, app.candidates,
                       app.response_map, left, right, answer_count)
-    return jsonify(answers)
+    return jsonify(answer="__SEP__".join([answer.strip() for answer in answers]))
